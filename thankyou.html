@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thank You - Donation.Ji</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #121212;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    h1 {
+      color: #4dbd4d;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 0;
+      max-width: 500px;
+      line-height: 1.5;
+      color: #ccc;
+    }
+
+    .home-link {
+      margin-top: 30px;
+      text-decoration: none;
+      background-color: #28a745;
+      color: white;
+      padding: 15px 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .home-link:hover {
+      background-color: #1e7e34;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Thank You!</h1>
+  <p>Your generous donation helps us take better care of cows and support our cause. We truly appreciate your kindness and support.</p>
+  <a href="index.html" class="home-link">Back to Home</a>
+</body>
+</html>
